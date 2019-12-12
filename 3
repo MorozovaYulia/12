@@ -5,9 +5,9 @@ using namespace std;
  
 float RingS(float R1, float R2) {
     float S1, S2, S;
-    const float Pi = 3.14f;
-    S1 = Pi * pow(R1, 2);
-    S2 = Pi * pow(R2, 2);
+    const float p = 3.14;
+    S1 = p * pow(R1, 2);
+    S2 = p * pow(R2, 2);
     S = S1 - S2;
     return S;
 }
@@ -19,6 +19,6 @@ int main()
         cout << "Enter the numbers \n";
         cin >> R1 >> R2;
         S = RingS(R1, R2);
-        cout << S << endl;
+        cout << S << " \n"
     }
 }
